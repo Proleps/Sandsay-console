@@ -1,0 +1,107 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F6F6F6;
+  height: 50px;
+  padding: 0 15px;
+}
+
+.LogoBlock {
+  display: flex;
+}
+
+.Right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Name {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+  flex: none;
+  margin-left: 20px;
+}
+
+.User {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  padding: 0 10px;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.User-info {
+  color: #0D0D0D;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 5px;
+}
+
+.Logout {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.Logout img {
+  margin-left: 10px;
+  color: #0D0D0D;
+  opacity: 0.8;
+  width: 20px;
+  height: 20px;
+}
+
+.Fullscreen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 7px;
+  stroke: #0D0D0D;
+  cursor: pointer;
+}
+
+.Fullscreen svg {
+  width: 20px;
+  height: 20px;
+}
+
+.Fullscreen svg path {
+  width: inherit;
+  height: inherit;
+  stroke: inherit;
+}
+
+.Fullscreen:hover {
+  stroke: rgba(69, 165, 255, 0.5);
+}
+
+.Fullscreen:active, :focus {
+  border: 2px solid rgba(69, 165, 255, 0.5);
+}

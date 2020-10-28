@@ -1,0 +1,48 @@
+._ {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #F6F6F6;
+  height: 50px;
+  padding: 0 0 0 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.HistoryItems {
+  position: relative;
+  display: flex;
+  left: 0px;
+  justify-content: flex-start;
+}
+
+.Overlay {
+  position: absolute;
+  right: 50px;
+  width: 30px;
+  height: 48px;
+  background: linear-gradient(269.93deg, #F6F6F6 0.06%, rgba(246, 246, 246, 0) 99.93%);
+  pointer-events: none;
+}
+
+.ClearHistory {
+  position: absolute;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.ClearHistory:active {
+  background-color: #fff;
+}

@@ -1,0 +1,68 @@
+._ {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  padding: 10px 15px 15px 15px;
+  flex-grow: inherit;
+}
+
+.Request {
+  position: relative;
+  display: flex;
+  width: calc(50vw - 20px);
+  flex-direction: column;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.Response {
+  position: relative;
+  display: flex;
+  width: calc(50vw - 20px);
+  flex-direction: column;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.TextArea {
+  display: flex;
+  flex-grow: 1;
+  display: block;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+}
+
+.DragElement {
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 10px;
+  color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.DragElement:active {
+  cursor: col-resize;
+}
+
+.Request.Invalid textarea {
+  border: 1px solid #CF2C00!important;
+}
+.Request.Invalid {
+  color: #CF2C00;
+}

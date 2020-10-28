@@ -1,0 +1,53 @@
+.ActionPanels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.Format {
+  height: 40px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  background: none;
+  color: #0D0D0D;
+  stroke: #0D0D0D;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.Format svg path {
+  width: inherit;
+  height: inherit;
+  stroke: inherit;
+}
+
+.Format svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.Format:hover {
+  background: none;
+  color: #0055FB;
+  stroke: #0055FB;
+}
+
+.Format:focus {
+  border: 2px solid rgba(69, 165, 255, 0.5);
+  outline: none;
+  color: #0055FB;
+  stroke: #0055FB;
+  border-radius: 7px;
+}

@@ -1,0 +1,50 @@
+.Input {
+  margin-bottom: 20px;
+}
+
+.Input label {
+  margin-bottom: 5px;
+  padding: 0;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #0D0D0D;
+}
+
+.Input span {
+  position: absolute;
+  right: 30px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.Input input {
+  display: block;
+  outline: none;
+  transition: all .3s ease-in-out;
+
+  width: 460px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.Input.invalid input {
+  border: 1px solid #CF2C00;
+}
+
+.Input.invalid label {
+  color: #CF2C00;
+}
